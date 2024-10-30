@@ -1,5 +1,5 @@
 const scrollBlock = ScrollReveal()
-scrollBlock.reveal('.about', { 
+scrollBlock.reveal('section', { 
     origin:'top',
     distance:'30px',
     duration: 700,
