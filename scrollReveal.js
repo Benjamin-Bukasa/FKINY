@@ -8,14 +8,14 @@ scrollBlock.reveal('section', {
     reset:true
 });
 
-// scrollBlock.reveal('section', { 
-//     origin:'top',
-//     distance:'30px',
-//     duration: 700,
-//     delay: 500,
-//     scale:0.5,
-//     reset:true
-// },500);
+scrollBlock.reveal('.card', { 
+    origin:'top',
+    distance:'30px',
+    duration: 700,
+    delay: 500,
+    scale:0.5,
+    reset:true
+},500);
 
 
 

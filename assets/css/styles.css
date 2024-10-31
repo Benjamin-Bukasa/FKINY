@@ -313,7 +313,7 @@ a {
   }
 
   .mainContent .hero  .heroInfos{
-    width: 75%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: flex-start;
@@ -330,7 +330,7 @@ a {
 
   .mainContent .hero  .heroInfos .InfoContent{
     background: #fff;
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -344,6 +344,7 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 5px;
+    
   }
 
 
@@ -357,6 +358,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    width:20%;
   }
 
   .mainContent .about{
@@ -374,7 +376,7 @@ a {
   }
 
     .mainContent .about .aboutContent .aboutText{
-      width: 50%;
+      width: 30%;
     }
 
         .text .question{
@@ -386,12 +388,13 @@ a {
 
      .title{
       color: #0E1026;
-      font-size: 40px;
-      line-height: 40px;
+      font-size: 50px;
+      line-height: 50px;
+      font-weight: 800;
     }
 
     .mainContent .about .aboutContent img{
-            width: 50%;
+            width: 70%;
     }
     .text .comment {
           font-size: 13px;
@@ -409,6 +412,7 @@ a {
           flex-direction: column;
           justify-content: flex-start;
           gap: 10px;
+          padding: 20px;
         }
 
     .aboutNumbers .numbRight {
@@ -416,6 +420,7 @@ a {
           flex-direction: column;
           justify-content: flex-start;
           gap: 10px;
+          padding: 20px;
         }
 
     .number{
@@ -433,6 +438,7 @@ a {
 
     .whatWeDo h3{
       color: #fff;
+      /* font-size: 35px; */
     }
 
     .whatWeDo .whatContent{
@@ -918,7 +924,7 @@ a {
 }
 
 
-@media screen and (max-width:480px){
+@media screen and (max-width:780px){
 
   .mainContent .hero{
     display: flex;
@@ -1035,10 +1041,12 @@ a {
       color: #0E1026;
       font-size: 30px;
       line-height: 40px;
+      font-weight: 800;
     }
 
     .mainContent .about .aboutContent img{
             width: 100%;
+            border-radius: 15px;
     }
     .text .comment {
           font-size: 13px;
@@ -1076,12 +1084,13 @@ a {
     .whatWeDo{
       width: 100%;
       padding: 20px 10;
-        background: linear-gradient(90deg, rgba(54, 155, 243, 0.886) 0%, rgba(73, 138, 223, 0.79) 35%, rgba(0, 48, 255, 0.6755077030812324) 100%), url('https://i.pinimg.com/564x/15/81/3f/15813fff021f61a4bf6961d98615f924.jpg') no-repeat center center / cover;
+        background: linear-gradient(90deg, rgba(54, 155, 243, 0.886) 0%, rgba(73, 138, 223, 0.79) 35%, rgba(0, 48, 255, 0.6755077030812324) 100%), url('https://i.pinimg.com/564x/15/81/3f/15813fff021f61a4bf6961d98615f924.jpg') no-repeat center right/ cover;
     }
 
     .whatWeDo h3{
       color: #fff;
       width: 100%;
+     
     }
 
     .whatWeDo .whatContent{
@@ -1090,7 +1099,7 @@ a {
     }
 
     .whatWeDo .whatContent .weDoText{
-      width: 50%;
+      width: 100%;
       padding: 20px 10px;
       display: flex;
       flex-direction: column;
@@ -1098,7 +1107,7 @@ a {
     }
 
         .weDoText button {
-          width: 50%;
+          width: 80%;
           padding: 15px 50px;
           border: none;
           background-color: #ffffff;
@@ -1112,11 +1121,14 @@ a {
         }
 
         .weDoPlus{
+          width: 90%;
           display: flex;
+          flex-direction: column;
           justify-content: center;
           align-items: center;
           gap: 5px;
           position: relative;
+          left: 5%;
           bottom: -100px;
           padding: 40px 15px;
           background-color: #fff;
@@ -1125,41 +1137,45 @@ a {
         }
 
         .weDoPlus .WeDoPluTitle{
-          width: 30%;
+          width: 100%;
           font-size: 25px;
           font-weight: 600;
+          text-align: center;
         }
 
         .weDoPlus .weDoMiddle{
-          width: 50%;
+          width: 100%;
           font-size: 13px;
           color: #888686;
+          text-align: center;
         }
 
         .weDoPlus .weDoLast{
-          width: 20%;
+          width: 80%;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          border-left: #888686 solid 1px;
+          border-left: #fff solid 1px;
+          text-align: center;
         }
 
         .weDoPlus .weDoLast .numb{
-          font-size: 35px;
+          font-size: 45px;
           font-weight: 600;
           color: #3ea0e0;
         }
 
         .tables{
-          padding: 100px 20px;
+          padding: 120px 10px 10px 10px;
         }
 
         .tables .tablesTitles{
-          width: 80%;
+          width: 100%;
           margin: auto;
           padding: 20px;
           display: flex;
+          flex-direction: column;
           justify-content: space-between;
           align-items: flex-start;
         }
@@ -1167,27 +1183,29 @@ a {
           color: #3ea0e0;
           font-size: 16px;
           font-weight: 500;
-          line-height: 0;
+          line-height: 16px;
           margin: 0;
+          width: 100%;
         }
 
         .tablesTitles .tablesLeft .tableTitle{
-          font-size: 40px;
+          font-size: 30px;
         }
 
         .tablesTitles .tablesLeft{
-          width: 60%;
+          width: 100%;
         }
 
         .tablesTitles .tablesRight{
-          width: 40%;
+          width: 100%;
           font-size: 14px;
           color: #888686;
           padding: 5px;
         }
 
         .tablesRight button{
-          width: 50%;
+          width: 70%;
+          margin: auto;
           padding: 15px 50px;
           border: none;
           background-color: #ec9914;
@@ -1202,18 +1220,18 @@ a {
         }
 
         .tables .cards{
-          width: 80%;
+          width: 100%;
           margin: auto;
           padding: 10px;
           display: flex;
-          flex-flow: row wrap;
+          flex-flow: column wrap;
           justify-content: space-between;
           align-items: flex-start;
           gap: 15px;
         }
 
         .tables .cards .card{
-          width: 30%;
+          width: 100%;
           padding: 20px;
           background-color: #fff;
           box-shadow: 0 25px 30px rgba(0, 0, 0, 0.05);
@@ -1233,32 +1251,33 @@ a {
         .video {
           width: 100%;
           display: flex;
+          flex-direction: column;
           justify-content: space-between;
           align-items: flex-start;
           gap:20px ;
-          padding: 40px 20px;
+          padding: 10px 10px;
         }
 
         .video img{
-          width: 35%;
+          width: 100%;
           
         }
 
         .video .videoText{
-          width: 75%;
-          height: 585px;
+          width: 100%;
+          height: none;
           padding: 20px;
           background: linear-gradient(90deg, rgba(54, 155, 243, 0.886) 0%, rgba(73, 138, 223, 0.79) 35%, rgba(0, 48, 255, 0.6755077030812324) 100%), url('/assets/img/logo.jpg') no-repeat center center / cover;
           color: #fff;
         }
 
         .realisations{
-          padding: 20px 0 50px 0;
+          padding: 20px 0 20px 0;
         }
 
         .realisations .realisationTop {
           text-align: center;
-          padding: 40px 0;
+          padding: 20px 0;
         }
 
         .realisations .realisationTop p{
@@ -1267,24 +1286,24 @@ a {
         }
 
         .realisations .realisationTop .realisationTitle{
-          width: 50%;
+          width: 100%;
           margin: auto;
-          font-size: 45px;
+          font-size: 35px;
         }
 
         .realisations .realisationCards {
-          width: 80%;
+          width: 100%;
           margin: auto;
-          padding: 20px;
+          padding: 10px;
           display: flex;
-          flex-flow: row wrap;
+          flex-flow: column;
           justify-content: space-between;
           align-items: center;
           gap: 10px;
         }
 
         .realisations .realisationCards .realisationCard{
-          width: 31%;
+          width: 100%;
           background-color: #fff;
           box-shadow: 0 25px 30px rgba(0, 0, 0, 0.05);
           display: flex;
@@ -1356,14 +1375,14 @@ a {
         }
 
         .downBanner .blocText{
-          width: 40%;
-          height: 580px;
+          width: 95%;
+          height: none;
           padding: 40px;
           background-color:#fff;
           box-shadow: 0 25px 30px rgba(0, 0, 0, 0.05);
           z-index:99;
           position:relative;
-          left: 200px;
+          left: 10px;
           bottom: -150px;
         }
 
@@ -1391,40 +1410,44 @@ a {
         }
 
         .contacts{
-          padding: 150px 10px;
+          padding: 150px 10px 10px 10px;
         }
 
         .contacts .contact{
-          width: 80%;
+          width: 100%;
           margin: auto;
           padding: 5px;
           display: flex;
+          flex-flow: column-reverse;
           justify-content: center;
           gap: 20px;
         }
 
         .contacts .contact .contactInfo{
-          width: 35%;
-          padding: 20px;
+          width: 100%;
+          margin: auto;
+          padding: 10px;
           background: linear-gradient(90deg, rgba(54, 155, 243, 0.886) 0%, rgba(73, 138, 223, 0.79) 35%, rgba(0, 48, 255, 0.6755077030812324) 100%), 
           url('/assets/img/logo.jpg') no-repeat  center center / cover ;
           color: #fff;
         }
 
         .contacts .contact .contactForm{
-          width: 55%;
-          padding:50px;
+          width: 100%;
+          padding:10px;
           background-color: #fff;
           box-shadow: 0 25px 30px rgba(0, 0, 0, 0.05);
           display: flex;
-          flex-direction: column;
+          flex-flow: column;
           justify-content: flex-start;
-          gap: 20px;
+          gap: 10px;
+          border-collapse: collapse;
         }
 
         .contacts .contact .contactForm .formTitle{
-          font-size: 45px;
-          line-height: 0;
+          font-size: 35px;
+          line-height: 35px;
+          text-align: center;
         }
 
         .contacts .contact .contactForm .formComment{
@@ -1435,13 +1458,13 @@ a {
         .contacts .contact .contactForm .inputs{
           width: 100%;
           display: flex;
-          flex-flow: row wrap;
+          flex-flow: column wrap;
           justify-content: flex-start;
           gap: 10px;
         }
 
         .contacts .contact .contactForm .inputs input{
-          width: 49%;
+          width: 100%;
           height: 50px;
           border:#FBFBFB solid 1px;
           background-color: #f5f2f2;
@@ -1477,22 +1500,24 @@ a {
 
         .newsLetter{
           display: flex;
+          flex-direction: column;
           align-items: center;
           justify-content: center;
-          padding: 50px 200px;
+          gap: 20px;
+          padding: 20px 10px;
           background: linear-gradient(90deg, rgba(4, 88, 212, 0.886) 0%, rgba(73, 138, 223, 0.89) 35%, rgba(45, 79, 230, 0.676) 100%), 
           url('/assets/img/logo.jpg') no-repeat  center center / cover ;
           color: #fff;
         }
 
         .newsLetter .newsComment{
-          width: 65%;
-          font-size: 35px;
+          width: 100%;
+          font-size: 20px;
           font-weight: 700;
         }
 
         .newsLetter .newsForm{
-          width: 25%;
+          width: 100%;
           display: flex;
           flex-direction: column;
           justify-content: space-between;
@@ -1529,10 +1554,11 @@ a {
         }
 
         .foot .footTop{
-          width: 80%;
+          width: 100%;
           margin: auto;
-          padding: 30px 0;
+          padding: 20px 0;
           display: flex;
+          flex-direction: column;
           justify-content: space-between;
           align-items: center;
           gap: 20px;
@@ -1540,13 +1566,13 @@ a {
         }
 
         .foot .footTop .footServices{
-          width: 25%;
+          width: 100%;
           padding: 0 20px;
         }
 
         .foot .footTop .footLogo{
           display: flex;
-          width: 25%;
+          width: 100%;
           gap:10px;
         }
 
@@ -1562,7 +1588,10 @@ a {
           padding: 10px 0;
           display: flex;
           flex-flow: row wrap;
+          gap: 20px;
           justify-content: space-between;
+          font-size: 13px;
+          text-align: center;
         }
 
 }
