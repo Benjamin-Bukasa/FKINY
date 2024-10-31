@@ -941,25 +941,28 @@ a {
 
   .mainContent .hero .heroText{
     width: 100%;
+    text-align: center;
   }
 
   .mainContent .hero .heroText h1{
-    font-size: 75px;
-    line-height: 75px;
+    font-size: 65px;
+    line-height: 65px;
   }
 
   .mainContent .hero .heroText button{
-    padding: 15px 50px;
+    padding: 25px 50px;
     border: none;
     background-color: #ec9914;
     font-weight: 600;
     color: #000;
-    width: 100%;
+    width: 80%;
+    margin: auto;
   }
 
   .mainContent .hero .heroText button a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
   }
 
   .mainContent .hero  .heroInfos{
